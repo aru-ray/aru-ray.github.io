@@ -1,0 +1,109 @@
+body { 
+margin:0; 
+padding:0; 
+background:#EDEDED; 
+font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+ 
+a{
+	color: #0e2a31;
+	text-decoration: underline;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.anchor { 
+text-decoration: none;
+}
+
+.anchor:before{
+  display: block; 
+  content: " "; 
+  margin-top: -150px; 
+  height: 150px; 
+  visibility: hidden; 
+}
+
+#nav  h2, h3, h4{
+display:inline;
+}
+
+/* Make Header Sticky */
+#header_container { 
+background:#3AB1CF; 
+height:135px; 
+left:0; 
+position:fixed; 
+width:100%; 
+top:0; 
+color:#E0F9FF;
+}
+
+#header{ 
+margin:0 auto; 
+width:940px; 
+text-align:left; 
+}
+
+#header a {
+	color: #E0F9FF;
+	text-decoration: none;
+}
+ 
+#nav {
+    background-color:#3AB1CF;
+    width:940px;
+    padding:0px; 
+    float:right;
+    text-align:right;
+}
+
+#nav ul {
+	list-style: none;
+}
+
+#nav ul li {
+	float: right;
+}
+
+#nav li {
+	margin: 0 1em 0 0em;
+	padding: 0 1em 0em;
+}
+
+/* CSS for the content of page. I am giving top and bottom padding of 300px to make sure the header and footer do not overlap the content.*/
+#container { 
+margin:0 auto; 
+overflow:auto; 
+padding:150px 0; 
+width:940px; 
+}
+
+#content{
+color: #5e5e5e;
+background:#EDEDED;
+}
+
+#content h1,h2,h3,h4{
+color: #153D47;
+}
+	
+/* Make Footer Sticky */
+#footer_container { 
+background:#3AB1CF; 
+bottom:0; 
+height:40px; 
+left:0; 
+position:fixed; 
+width:100%; 
+color:#E0F9FF;
+}
+
+#footer { 
+line-height:40px; 
+margin:0 auto; 
+width:940px; 
+text-align:center; 
+}
